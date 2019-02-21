@@ -2,12 +2,11 @@ import os, sys
 
 print ("\033[1;32mSilahkan Masukkan Username & Password Anda")
 
-print ("\033[1;32mjika tidak tau bisa hubungin RianWk")
-")
+print ("\033[1;32majika tidam tau silahkan Hubungi RianWk ")
 
-username = 'rianwk'      
+username = 'RianWk'      
 
-password = 'rianganteng'
+password = 'RianGanteng'
 
 
 
@@ -49,7 +48,7 @@ def main():
 
 	else:
 
-		print "\033[1;32mMaaf  Username Anda salah... [?]\033[00m"
+		print "\033[1;32mMaaf Masukkan Username Anda salah... [?]\033[00m"
 
 		print "Silahkan segera log-in kembali...!!\n"
 
@@ -66,3 +65,6 @@ except KeyboardInterrupt:
 	os.system('clear')
 
 	restart()
+
+
+
