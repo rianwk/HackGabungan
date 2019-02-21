@@ -22,10 +22,6 @@ echo '''\a
 \033[34;1m                             | |
 \033[34;1m                            _|_|_ '''
 sleep 1
-apt update && apt upgrade
-apt install nano
-apt install git
-pkg install python python2 vim figlet curl
 clear
 echo
 echo
@@ -40,19 +36,13 @@ echo '''\a
 \033[32;1m                             __) |
 \033[32;1m                            / __/
 \033[32;1m                           |_____| '''
-sleep 1
-apt install php
-pip2 install mechanize
-pip2 install lolcat
-pip2 install requests
-clear
-echo
 echo
 echo
 echo
 echo $red"         Tool akan di install dalam waktu 5 detik"
 echo $red"                      harap sabar menunggu boss :)"
 sleep 1
+clear
 echo '''\a
 \033[35;1m                            _____
 \033[35;1m                           |___ /
@@ -93,9 +83,9 @@ sleep 1
 clear
 echo
 echo $pur"==================="$cy" ==================="
-echo $i"█"$pu"  AUTHOR  :  RianWk           "$i"          █"
+echo $i"█"$pu"  AUTHOR  :  RianWk           "$i"        █"
 echo $i"█"$pu"  WhatsApp:  08953635*****"$i"            █"
-echo $i"█"$pu"  GMAIL   :  riandiningrat212@gmail.com"$i"    █"
+echo $i"█"$pu"  GMAIL   :  riandiningrat212@gmail.com"$i"█"
 echo $i"█"$pu"  YOUTUBE :  Rian Arisadi"$i"             █"
 echo $pur"==================="$cy" ==================="
 echo
