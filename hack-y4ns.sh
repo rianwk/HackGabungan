@@ -140,9 +140,9 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/FR13ND8/Fb-Cracker-v.3.git
-cd Fb-Cracker-v.3
-python2 crack.py
+git clone https://github.com/rianwk/fb-crack
+cd fb-crack
+python2 cracker.py
 fi
 
 if [ $pil = 4 ]
@@ -185,9 +185,9 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/edi-nasa12/profileguard.git
-cd profileguard
-php guard.php
+git clone https://github.com/rianwk/profil-guard
+cd profil-guard
+php fb-guard.php
 fi
 
 if [ $pil = 8 ]
@@ -195,9 +195,9 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/edi-nasa12/ROBOT.git
-cd ROBOT
-python2 blackbot.py
+git clone https://github.com/rianwk/Bot-Facebook
+cd Bot-Facebook
+python2 bot-facebook.py
 fi
 
 if [ $pil = 9 ]
