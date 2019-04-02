@@ -150,8 +150,8 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/edi-nasa12/CloningYahoo.git
-cd CloningYahoo
+git clone https://github.com/wahyuandhika/YahooCloning
+cd YahooCloning
 pip2 install mechanize
 pip2 install requests 
 pip2 install --upgrade pip
