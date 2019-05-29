@@ -8,7 +8,7 @@ pu='\033[37;1m' #putih
 ku='\033[33;1m' #kuning
 echo
 echo
-python2 meizu.py
+python2 hack-y4ns.py
 echo
 clear
 echo
@@ -99,7 +99,8 @@ echo $ku"["$me"6"$ku"]"$i" OSIF"
 echo $ku"["$me"7"$ku"]"$i" PROFILEGUARD FB"
 echo $ku"["$me"8"$ku"]"$i" BOT REACTION FACEBOOK"
 echo $ku"["$me"9"$ku"]"$i" SPAM CALL"
-echo $i"["$me"10"$i"]"$ku" EXIT"
+echo $ku"["$me"10"$ku"]"$i" HACK FB MASSAL"
+echo $i"["$me"11"$i"]"$ku" EXIT"
 echo
 echo $pur"╭─["$pur"Masukkan pilihan anda"$pur"]"
 read -p"╰─>> " pil
@@ -201,6 +202,17 @@ php SpamCall.php
 fi
 
 if [ $pil = 10 ]
+then
+clear
+figlet -f slant "W A I T"|lolcat
+sleep 1
+pip2 install requests mechanize
+git clone https://github.com/YukersCreew/mbf
+cd mbf
+python2 mbf.py
+fi
+
+if [ $pil = 11 ]
 then
 clear
 figlet -f slant "W A I T"|Ulolcat
